@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #2a2e37;
+    --accent-color: #3ac8c8;
+    --bg-color: #f5f7fa;
+    --card-color: #ffffff;
+    --text-color: #1f2937;
+    --muted-color: #9ca3af;
+    --border-color: #e5e7eb;
+    --radius: 8px;
+    --font-sans: 'Inter', sans-serif;
+  }
+  

@@ -1,29 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Folonite Builder</title>
-  <link rel="stylesheet" href="https://unpkg.com/grapesjs@latest/dist/css/grapes.min.css" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="title" content="Folonite Web Builder">
+  <meta name="description" content="Sleek web builder by Folonite" />
+  <title>Folonite Web Builder</title>
 </head>
 <body>
-  <header> Folonite Builder</header>
-  <div id="editor" style="height: 100%;"></div>
-  <footer>Built with ❤️ by Folonite</footer>
-
-  <!-- ✅ Load GrapesJS the right way -->
-  <script src="https://unpkg.com/grapesjs@latest/dist/grapes.min.js"></script>
-
-  <!-- ✅ Inline init script -->
-  <script>
-    console.log("Running builder script");
-    const editor = grapesjs.init({
-      container: '#editor',
-      height: '100%',
-      fromElement: true,
-    });
-
-    editor.setComponents('<h1>Welcome to Folonite Builder</h1>');
-  </script>
+  <div id="root"></div>
 </body>
 </html>
