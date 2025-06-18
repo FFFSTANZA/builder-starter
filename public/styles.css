@@ -1,0 +1,28 @@
+:root {
+  --primary: #2a9d8f;
+  --bg: #ffffff;
+  --text: #333333;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+header, footer {
+  background: var(--primary);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+#editor {
+  flex: 1;
+}
+.logo {
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
